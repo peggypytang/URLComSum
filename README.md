@@ -1,6 +1,6 @@
 # URLComSum
 
-This code repository is for paper [Efficient and Interpretable Compressive Text Summarisation with Unsupervised Dual-Agent Reinforcement Learning], Workshop on Simple and Efficient Natural Language Processing (SustaiNLP), co-located with ACL 2023
+This code repository is for paper [Efficient and Interpretable Compressive Text Summarisation with Unsupervised Dual-Agent Reinforcement Learning], The 4th Workshop on Simple and Efficient Natural Language Processing (SustaiNLP 2023), co-located with ACL 2023
 
 ### To train the model:
 > python train_OT_hybridcompressivepointer.py --experiment newsroom_2_26 --dataset_str newsroom --dataset_doc_field text --max_ext_output_length 2 --max_comp_output_length 26 --train_batch_size 3 --tkner w2v
